@@ -1,0 +1,30 @@
+{
+  "name": "todo-node-server",
+  "version": "1.0.0",
+  "description": "Node Server / API for React Todo App Client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techendeavor/todo-node-server.git"
+  },
+  "author": "Clif Hodges",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/techendeavor/todo-node-server/issues"
+  },
+  "homepage": "https://github.com/techendeavor/todo-node-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.2.0",
+    "knex": "^0.21.14",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
